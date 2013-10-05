@@ -4,14 +4,14 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
+        "name":    "202",
+        "main":    "<p>last update: 04/10/2013</p>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." 
+        "level1":  "boa, pode fazer a prova que você passa.",
+        "level2":  "melhor estudar um pouco mais",
+        "level3":  "vixi, volte para os livros",
+        "level4":  "triste",
+        "level5":  "ta ruim manow." 
     },
     "questions": [
 
@@ -265,14 +265,15 @@ var quizJSON = {
         { // 2
             "q": "Quais sao os principais daemons de serviço do Samba? Marque ",
             "a": [
-                {"option": "",      "correct": false},
-                {"option": "",     "correct": true},
-                {"option": "",      "correct": false},
-                {"option": "",     "correct": true} 
+                {"option": "sambad",      "correct": false},
+                {"option": "smbd",     "correct": true},
+                {"option": "cifs",      "correct": false},
+                {"option": "nmbd",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
+
 
         { // 3
             "q": "O comando _________ pertmite testar as configuracao do Smaba e informa sobre possíveis falhas no arquivo de configuracao",
