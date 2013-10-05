@@ -27,7 +27,7 @@ var quizJSON = {
                 {"option": "named.cf",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> named.conf</p>" 
         },
 
         { 
@@ -39,7 +39,7 @@ var quizJSON = {
                 {"option": "type hint;",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> type hint;</p>" 
         },
 
         { 
@@ -51,7 +51,7 @@ var quizJSON = {
                 {"option": "include",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> options</p>" 
         },
 
         { 
@@ -72,7 +72,7 @@ var quizJSON = {
                 {"option": "INBOX",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> MX</p>" 
         },
 
         { 
@@ -93,7 +93,7 @@ var quizJSON = {
                 {"option": "está em outro servidor",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> é para resoluçao de DNS reverso.</p>" 
         },
 
         { 
@@ -105,7 +105,7 @@ var quizJSON = {
                 {"option": "nmap",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> dig</p>" 
         },
 
         { 
@@ -117,7 +117,7 @@ var quizJSON = {
                 {"option": "o servidor DNS opera num ambiente isolado do restante do sistema",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> o servidor DNS opera num ambiente isolado do restante do sistema</p>" 
         },
 
         { 
@@ -142,7 +142,7 @@ var quizJSON = {
                 {"option": "DocumentRoot",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> ServerRoot</p>" 
         },
 
         { // 2
@@ -154,7 +154,7 @@ var quizJSON = {
                 {"option": "o número de servidores virtuais",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> o número mínimo de threads ociosos disparados pelo Apache</p>" 
         },
 
         { // 3
@@ -175,7 +175,7 @@ var quizJSON = {
                 {"option": "apache2ctl",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> htpasswd</p>" 
         },
 
         { // 5 
@@ -187,7 +187,7 @@ var quizJSON = {
                 {"option": "LogFormat e CustomLog",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> LogFormat e CustomLog</p>" 
         },
 
         { // 6 
@@ -199,7 +199,7 @@ var quizJSON = {
                 {"option": "NmaeHost",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> VirtualHost</p>" 
         },
 
         { // 7 
@@ -220,7 +220,7 @@ var quizJSON = {
                 {"option": "443",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> 443</p>" 
         },
 
         { // 9
@@ -232,7 +232,7 @@ var quizJSON = {
                 {"option": "o navegador informa sobre a segurança do site",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span> for emitido por uma CA - Autoridade Certificadora - reconhecida pelo navegador</p>" 
         },
 
         { // 10
