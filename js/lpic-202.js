@@ -26,7 +26,7 @@ var quizJSON = {
                 {"option": "bind.cf",      "correct": false},
                 {"option": "named.cf",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> named.conf</p>" 
         },
 
@@ -38,7 +38,7 @@ var quizJSON = {
                 {"option": "type root;",      "correct": false},
                 {"option": "type hint;",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> type hint;</p>" 
         },
 
@@ -50,7 +50,7 @@ var quizJSON = {
                 {"option": "options",      "correct": true},
                 {"option": "include",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> options</p>" 
         },
 
@@ -59,7 +59,7 @@ var quizJSON = {
             "a": [
                 {"option": "rndc",      "correct": true}
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -71,7 +71,7 @@ var quizJSON = {
                 {"option": "MX",      "correct": true},
                 {"option": "INBOX",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> MX</p>" 
         },
 
@@ -80,7 +80,7 @@ var quizJSON = {
             "a": [
                 {"option": "ptr",      "correct": true}
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -92,7 +92,7 @@ var quizJSON = {
                 {"option": "é para resoluçao de DNS reverso",      "correct": true},
                 {"option": "está em outro servidor",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> é para resoluçao de DNS reverso.</p>" 
         },
 
@@ -104,7 +104,7 @@ var quizJSON = {
                 {"option": "dig",      "correct": true},
                 {"option": "nmap",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> dig</p>" 
         },
 
@@ -116,7 +116,7 @@ var quizJSON = {
                 {"option": "o servidor DNS identifica o invasor e informa a polícia",      "correct": false},
                 {"option": "o servidor DNS opera num ambiente isolado do restante do sistema",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> o servidor DNS opera num ambiente isolado do restante do sistema</p>" 
         },
 
@@ -125,7 +125,7 @@ var quizJSON = {
             "a": [
                 {"option": "dnssec-keygen",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -141,7 +141,7 @@ var quizJSON = {
                 {"option": "ServerRoot",      "correct": true},
                 {"option": "DocumentRoot",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> ServerRoot</p>" 
         },
 
@@ -153,7 +153,7 @@ var quizJSON = {
                 {"option": "o numero mínimo de domínios virtuais",      "correct": false},
                 {"option": "o número de servidores virtuais",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> o número mínimo de threads ociosos disparados pelo Apache</p>" 
         },
 
@@ -162,7 +162,7 @@ var quizJSON = {
             "a": [
                 {"option": "apache2ctl",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -174,7 +174,7 @@ var quizJSON = {
                 {"option": "htaccess",      "correct": false},
                 {"option": "apache2ctl",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> htpasswd</p>" 
         },
 
@@ -186,7 +186,7 @@ var quizJSON = {
                 {"option": "LogError e Directory",      "correct": false},
                 {"option": "LogFormat e CustomLog",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> LogFormat e CustomLog</p>" 
         },
 
@@ -198,7 +198,7 @@ var quizJSON = {
                 {"option": "VirtualHost",      "correct": true},
                 {"option": "NmaeHost",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> VirtualHost</p>" 
         },
 
@@ -207,7 +207,7 @@ var quizJSON = {
             "a": [
                 {"option": "operanssl",      "correct": true}
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -219,7 +219,7 @@ var quizJSON = {
                 {"option": "143",      "correct": false},
                 {"option": "443",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> 443</p>" 
         },
 
@@ -231,7 +231,7 @@ var quizJSON = {
                 {"option": "a conexao for estabelecida com um site conhecido",      "correct": false},
                 {"option": "o navegador informa sobre a segurança do site",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> for emitido por uma CA - Autoridade Certificadora - reconhecida pelo navegador</p>" 
         },
 
@@ -243,8 +243,8 @@ var quizJSON = {
                 {"option": "controlar o acesso por http de uma ACL",      "correct": true},
                 {"option": "liberar o acesso de usuários",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> controlar o acesso por http de uma ACL</p>" 
         },
 
     // 209 --------------------------------------------------------------------------------------------------------
@@ -258,8 +258,8 @@ var quizJSON = {
                 {"option": "[personal]",      "correct": false},
                 {"option": "[homes]",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> [homes]</p>" 
         },
 
         { // 2
@@ -270,8 +270,8 @@ var quizJSON = {
                 {"option": "cifs",      "correct": false},
                 {"option": "nmbd",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span>smbd nmbd</p>" 
         },
 
 
@@ -280,7 +280,7 @@ var quizJSON = {
             "a": [
                 {"option": "testparm",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -292,8 +292,8 @@ var quizJSON = {
                 {"option": "smbuser",      "correct": false},
                 {"option": "smbpasswd",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> smbpasswd</p>" 
         },
 
         { // 5
@@ -304,8 +304,8 @@ var quizJSON = {
                 {"option": "names map = /var/lib/samba/users.map",      "correct": false},
                 {"option": "homes = /var/lib/samba/users.map",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> username map = /var/lib/samba/users.map</p>" 
         },
 
         { // 6
@@ -313,7 +313,7 @@ var quizJSON = {
             "a": [
                 {"option": "smbclient",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -325,8 +325,8 @@ var quizJSON = {
                 {"option": "inetd",      "correct": false},
                 {"option": "tcpwrapper",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> portmap nfsd</p>" 
         },
 
         { // 8
@@ -334,7 +334,7 @@ var quizJSON = {
             "a": [
                 {"option": "/etc/exports",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -343,7 +343,7 @@ var quizJSON = {
             "a": [
                 {"option": "exportfs",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -355,8 +355,8 @@ var quizJSON = {
                 {"option": "nmap",      "correct": false},
                 {"option": "exportfs",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> showmount</p>" 
         },
 
     // 210 --------------------------------------------------------------------------------------------------------
@@ -367,7 +367,7 @@ var quizJSON = {
             "a": [
                 {"option": "domain-name-servers",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -379,8 +379,8 @@ var quizJSON = {
                 {"option": "hardware-ethernet e fixed address",      "correct": false},
                 {"option": "hardware ethernet e fixed-address",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> hardware ethernet e fixed-address</p>" 
         },
 
         { // 3
@@ -388,7 +388,7 @@ var quizJSON = {
             "a": [
                 {"option": "dhcrelay",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -397,7 +397,7 @@ var quizJSON = {
             "a": [
                 {"option": "/var/log/daemon.log",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -409,8 +409,8 @@ var quizJSON = {
                 {"option": "auth",      "correct": true},
                 {"option": "account",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> auth account</p>" 
         },
 
         { // 6
@@ -421,8 +421,8 @@ var quizJSON = {
                 {"option": "sufficient",      "correct": false},
                 {"option": "optional",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> requisite</p>" 
         },
 
         { // 7
@@ -430,7 +430,7 @@ var quizJSON = {
             "a": [
                 {"option": "pam_limits.so",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -442,8 +442,8 @@ var quizJSON = {
                 {"option": "verificar a configuraçao de um cliente LDAP",      "correct": false},
                 {"option": "Localizar um cliente LDAP na rede",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> procurar registros num servidor LDAP</p>" 
         },
 
         { // 9
@@ -454,8 +454,8 @@ var quizJSON = {
                 {"option": "ldaprc",      "correct": false},
                 {"option": "slapd.conf",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> slapd.conf</p>" 
         },
 
         { // 10 
@@ -463,7 +463,7 @@ var quizJSON = {
             "a": [
                 {"option": "ldappasswd",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -479,7 +479,7 @@ var quizJSON = {
                 {"option": "Courier",      "correct": false},
                 {"option": "Postfix",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span> Exim Postfix</p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -488,7 +488,7 @@ var quizJSON = {
             "a": [
                 {"option": "main.cf",      "correct": true}
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -497,7 +497,7 @@ var quizJSON = {
             "a": [
                 {"option": "relay_domains",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -509,8 +509,8 @@ var quizJSON = {
                 {"option": "remote-domains",      "correct": false},
                 {"option": "local-domains",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> virtual</p>" 
         },
 
         { // 5
@@ -521,8 +521,8 @@ var quizJSON = {
                 {"option": "~/.procmailrc",      "correct": true},
                 {"option": "~/Mail",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> /.procmailrc</p>" 
         },
 
         { // 6
@@ -533,8 +533,8 @@ var quizJSON = {
                 {"option": "As mensagens destinadas ao usuário lsiqueira serão descartadas",      "correct": true},
                 {"option": "As mensages enviadas pelo usuário lsiqueira serão descartadas",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> as mensagens destinadas ao usuário lsiqueira serao descartadas</p>" 
         },
 
         { // 7
@@ -542,7 +542,7 @@ var quizJSON = {
             "a": [
                 {"option": "/etc/procmailrc",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -554,8 +554,8 @@ var quizJSON = {
                 {"option": "Courier",      "correct": true},
                 {"option": "Postfix",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Dovecot Courier</p>" 
         },
 
         { // 9
@@ -566,8 +566,8 @@ var quizJSON = {
                 {"option": "POP3START=YES",      "correct": false},
                 {"option": "POP3DSTART=YES",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> POP3DSTART=YES</p>" 
         },
 
         { // 10 
@@ -578,8 +578,8 @@ var quizJSON = {
                 {"option": "mail_location",      "correct": true},
                 {"option": "mail_dir",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> mail_location</p>" 
         },
 
 
@@ -591,11 +591,11 @@ var quizJSON = {
             "a": [
                 {"option": "Permitir a comunicação entre os computadores na rede interna.",      "correct": false},
                 {"option": "Bloquear o acesso externo aos computadores da rede interna",     "correct": false},
-                {"option": "Permitir que os computadores da rede interna acessem endereços exsternos.",      "correct": true},
+                {"option": "Permitir que os computadores da rede interna acessem endereços externos.",      "correct": true},
                 {"option": "Permitir a identificação dos endereços da rede interna",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Permitir que os computadores da rede interna acessem endereços externos</p>" 
         },
 
         { // 2
@@ -606,8 +606,8 @@ var quizJSON = {
                 {"option": "mangle",      "correct": false},
                 {"option": "forward",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> nat</p>" 
         },
 
         { // 3
@@ -618,8 +618,8 @@ var quizJSON = {
                 {"option": "iptables -I INPUT DROP",      "correct": false},
                 {"option": "iptables -F INPUT",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> iptables -P INPUT DROP</p>" 
         },
 
         { // 4
@@ -627,7 +627,7 @@ var quizJSON = {
             "a": [
                 {"option": "dnat",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -636,7 +636,7 @@ var quizJSON = {
             "a": [
                 {"option": "iptables-restore",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -648,8 +648,8 @@ var quizJSON = {
                 {"option": "anon_login_enable=YES",      "correct": false},
                 {"option": "anon_upload_enable=YES",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> anon_upload_enable=YES</p>" 
         },
 
         { // 7
@@ -657,7 +657,7 @@ var quizJSON = {
             "a": [
                 {"option": "permitrootlogin no",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -669,8 +669,8 @@ var quizJSON = {
                 {"option": "Gerar a chave criptográfica pública.",      "correct": false},
                 {"option": "Gerar a chave criptgráfica privada",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Armazenar a autorizaçao de acesso a chave do usuário</p>" 
         },
 
         { // 9
@@ -678,7 +678,7 @@ var quizJSON = {
             "a": [
                 {"option": "tcpd",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -690,8 +690,8 @@ var quizJSON = {
                 {"option": "Bugtraq",      "correct": true},
                 {"option": "TCP Wrapper",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Cert Bugtraq</p>" 
         },
 
     // 213--------------------------------------------------------------------------------------------------------
@@ -705,8 +705,8 @@ var quizJSON = {
                 {"option": "O teclado não foi localizado",      "correct": false},
                 {"option": "O arquivo /etc/inittab foi editado incorretamente",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> O arquivo /etc/inittab foi editado incorretamente</p>" 
         },
 
         { // 2
@@ -717,8 +717,8 @@ var quizJSON = {
                 {"option": "Aguardar até que o sistema se atualize",      "correct": false},
                 {"option": "Entrar no runlevel 1 e corrigir o script do serviço em questão",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> Entrar no runlevel 1 e corrigir o script do serviço em questao</p>" 
         },
 
         { // 3
@@ -729,8 +729,8 @@ var quizJSON = {
                 {"option": "lspci",      "correct": true},
                 {"option": "strace",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span>lsdev lspci</p>" 
         },
 
         { // 4
@@ -741,8 +741,8 @@ var quizJSON = {
                 {"option": "/lib/modules/2.6.32",      "correct": true},
                 {"option": "/lib/2.6.32/modules",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> /lib/modules/2.6.32</p>" 
         },
 
         { // 5
@@ -753,8 +753,8 @@ var quizJSON = {
                 {"option": "lsof",      "correct": true},
                 {"option": "strace",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> lsof strace</p>" 
         },
 
         { // 6 
@@ -762,7 +762,7 @@ var quizJSON = {
             "a": [
                 {"option": "/etc/profile",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -775,8 +775,8 @@ var quizJSON = {
                 {"option": "/etc/ldconfig",      "correct": false},
                 {"option": "/etc/ldd",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> /etc/ld.so.conf</p>" 
         },
 
          { // 8
@@ -787,8 +787,8 @@ var quizJSON = {
                 {"option": "update",      "correct": false},
                 {"option": "lilo",     "correct": false} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "correct": "<p><span>correto!</span></p>",
+            "incorrect": "<p><span>Uhh no.</span> ldconfig</p>" 
         },
 
         { // 9
@@ -796,7 +796,7 @@ var quizJSON = {
             "a": [
                 {"option": "vipw",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
@@ -805,7 +805,7 @@ var quizJSON = {
             "a": [
                 {"option": "/etc/sysctl.conf",     "correct": true} 
             ],
-            "correct": "<p><span>That's right!</span></p>",
+            "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         }
 
@@ -817,7 +817,7 @@ var quizJSON = {
         //         {"option": "",      "correct": true},
         //         {"option": "",     "correct": false} 
         //     ],
-        //     "correct": "<p><span>That's right!</span></p>",
+        //     "correct": "<p><span>correto!</span></p>",
         //     "incorrect": "<p><span>Uhh no.</span></p>" 
         // },
 
