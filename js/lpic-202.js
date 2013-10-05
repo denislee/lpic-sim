@@ -4,14 +4,14 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
+        "name":    "202",
+        "main":    "<p>last update: 04/10/2013</p>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." 
+        "level1":  "boa, pode fazer a prova que você passa.",
+        "level2":  "melhor estudar um pouco mais",
+        "level3":  "vixi, volte para os livros",
+        "level4":  "triste",
+        "level5":  "ta ruim manow." 
     },
     "questions": [
 
@@ -255,8 +255,8 @@ var quizJSON = {
             "a": [
                 {"option": "[users]",      "correct": false},
                 {"option": "[global]",     "correct": false},
-                {"option": "[personal]",      "correct": true},
-                {"option": "[homes]",     "correct": false} 
+                {"option": "[personal]",      "correct": false},
+                {"option": "[homes]",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -265,19 +265,20 @@ var quizJSON = {
         { // 2
             "q": "Quais sao os principais daemons de serviço do Samba? Marque ",
             "a": [
-                {"option": "",      "correct": false},
-                {"option": "",     "correct": false},
-                {"option": "",      "correct": true},
-                {"option": "",     "correct": false} 
+                {"option": "sambad",      "correct": false},
+                {"option": "smbd",     "correct": true},
+                {"option": "cifs",      "correct": false},
+                {"option": "nmbd",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
         },
 
+
         { // 3
             "q": "O comando _________ pertmite testar as configuracao do Smaba e informa sobre possíveis falhas no arquivo de configuracao",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "testparm",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -288,8 +289,8 @@ var quizJSON = {
             "a": [
                 {"option": "useradd",      "correct": false},
                 {"option": "adduser",     "correct": false},
-                {"option": "smbuser",      "correct": true},
-                {"option": "smbpasswd",     "correct": false} 
+                {"option": "smbuser",      "correct": false},
+                {"option": "smbpasswd",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -299,8 +300,8 @@ var quizJSON = {
             "q": "No Samba, como o arquivo /var/lib/samba/users.map pode ser definido como arquivo de correspondeencia entre nomes de usuários remotos e locais?",
             "a": [
                 {"option": "users map = /var/lib/samba/users.map",      "correct": false},
-                {"option": "username map = /var/lib/samba/users.map",     "correct": false},
-                {"option": "names map = /var/lib/samba/users.map",      "correct": true},
+                {"option": "username map = /var/lib/samba/users.map",     "correct": true},
+                {"option": "names map = /var/lib/samba/users.map",      "correct": false},
                 {"option": "homes = /var/lib/samba/users.map",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -310,7 +311,7 @@ var quizJSON = {
         { // 6
             "q": "O comando _________  -L  192.168.1.77 exibirá os compartilhamentos Samba disponíveis no servidor 192.168.1.77.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "smbclient",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -319,9 +320,9 @@ var quizJSON = {
         { // 7
             "q": "Quais servicos ou daemons sao necessarios para que o servico NFS funcione corretamente?",
             "a": [
-                {"option": "portmap",      "correct": false},
-                {"option": "nfsd",     "correct": false},
-                {"option": "inetd",      "correct": true},
+                {"option": "portmap",      "correct": true},
+                {"option": "nfsd",     "correct": true},
+                {"option": "inetd",      "correct": false},
                 {"option": "tcpwrapper",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -331,7 +332,7 @@ var quizJSON = {
         { // 8
             "q": "Em qual arquivo sao definidos os compartilhamentos NFS? Informe o caminho completo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "/etc/exports",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -340,7 +341,7 @@ var quizJSON = {
         { // 9
             "q": "Após definir um compartilhamento NFS, o comando _______ =a deve ser executado para torná-lo ativo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "exportfs",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -349,9 +350,9 @@ var quizJSON = {
         { // 10 
             "q": "Com qual comando é possível flistar os compartilhamentos NFS da máquina 192.168.1.5?",
             "a": [
-                {"option": "showmount",      "correct": false},
+                {"option": "showmount",      "correct": true},
                 {"option": "mount",     "correct": false},
-                {"option": "nmap",      "correct": true},
+                {"option": "nmap",      "correct": false},
                 {"option": "exportfs",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -364,7 +365,7 @@ var quizJSON = {
         { // 1
             "q": "A entrada option ___________ 208.67.222.222, 208.67.220.220 no arquivo dhcpd.conf define os servidores de DNS para os clientes na rede",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "domain-name-servers",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -375,8 +376,8 @@ var quizJSON = {
             "a": [
                 {"option": "mac-address e fixed-ip",      "correct": false},
                 {"option": "mac address e ip",     "correct": false},
-                {"option": "hardware-ethernet e fixed address",      "correct": true},
-                {"option": "hardware ethernet e fixed-address",     "correct": false} 
+                {"option": "hardware-ethernet e fixed address",      "correct": false},
+                {"option": "hardware ethernet e fixed-address",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -385,7 +386,7 @@ var quizJSON = {
         { // 3
             "q": "O comando ___________ redireciona requisiçoes DHCP para outro servidor",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "dhcrelay",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -394,7 +395,7 @@ var quizJSON = {
         { // 4
             "q": "Atribuiçoes de endereços IP para os clientes da rede podem ser consultados no arquivo __________ no servidor DHCP. informe o caminho completo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "/var/log/daemon.log",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -406,7 +407,7 @@ var quizJSON = {
                 {"option": "getty",      "correct": false},
                 {"option": "math",     "correct": false},
                 {"option": "auth",      "correct": true},
-                {"option": "account",     "correct": false} 
+                {"option": "account",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -415,9 +416,9 @@ var quizJSON = {
         { // 6
             "q": "Qual controle do PAM nega uma autenticaçao, independente da respota de outros módulos para o mesmo tipo de autenticaçao",
             "a": [
-                {"option": "requisite",      "correct": false},
+                {"option": "requisite",      "correct": true},
                 {"option": "required",     "correct": false},
-                {"option": "sufficient",      "correct": true},
+                {"option": "sufficient",      "correct": false},
                 {"option": "optional",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -427,7 +428,7 @@ var quizJSON = {
         { // 7
             "q": "O módulo __________ determina a configuraçao de limites como definidos no arquivo /etc/security/limits.conf",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "pam_limits.so",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -436,9 +437,9 @@ var quizJSON = {
         { // 8
             "q": "Qual é a finalidade do comando ldapsearch?",
             "a": [
-                {"option": "procurar registros num servidor LDAP",      "correct": false},
+                {"option": "procurar registros num servidor LDAP",      "correct": true},
                 {"option": "procurar máquinas que sejham servidores LDAP",     "correct": false},
-                {"option": "verificar a configuraçao de um cliente LDAP",      "correct": true},
+                {"option": "verificar a configuraçao de um cliente LDAP",      "correct": false},
                 {"option": "Localizar um cliente LDAP na rede",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -450,8 +451,8 @@ var quizJSON = {
             "a": [
                 {"option": "ldap.conf",      "correct": false},
                 {"option": "ldif.conf",     "correct": false},
-                {"option": "ldaprc",      "correct": true},
-                {"option": "slapd.conf",     "correct": false} 
+                {"option": "ldaprc",      "correct": false},
+                {"option": "slapd.conf",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -460,7 +461,7 @@ var quizJSON = {
         { // 10 
             "q": "A senha de acesso a um recurso do LDAP é definida ou alterada com o comando __________.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "ldappasswd",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -473,10 +474,10 @@ var quizJSON = {
         { // 1
             "q": "Qual desses servidores é utlizado para envio de mensagens por SMTP? Marque todas as opçoes corretas",
             "a": [
-                {"option": "Exim",      "correct": false},
+                {"option": "Exim",      "correct": true},
                 {"option": "Dovecot",     "correct": false},
-                {"option": "Courier",      "correct": true},
-                {"option": "Postfix",     "correct": false} 
+                {"option": "Courier",      "correct": false},
+                {"option": "Postfix",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -485,7 +486,7 @@ var quizJSON = {
         { // 2
             "q": "Qual é o principal arquivo de configuraçao do Postfix? Informe apenas o nome sem o caminho.",
             "a": [
-                {"option": "",      "correct": true}
+                {"option": "main.cf",      "correct": true}
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -494,7 +495,7 @@ var quizJSON = {
         { // 3 
             "q": "Qual entrada de configuraçao do Postfix determina para quais dominios será feito relay de email?",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "relay_domains",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -503,9 +504,9 @@ var quizJSON = {
         { // 4 
             "q": "Qual entrada de configuraçao do Postfix sao definidos os domínios virtuais aceitos pelo Postfix?",
             "a": [
-                {"option": "virtual",      "correct": false},
+                {"option": "virtual",      "correct": true},
                 {"option": "domains",     "correct": false},
-                {"option": "remote-domains",      "correct": true},
+                {"option": "remote-domains",      "correct": false},
                 {"option": "local-domains",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -539,7 +540,7 @@ var quizJSON = {
         { // 7
             "q": "O arquivo ___________ contém as definições globais para o Procmail. Informe o caminho completo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "/etc/procmailrc",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -549,7 +550,7 @@ var quizJSON = {
             "q": "Qual desses servidores destina-se ao tráfego de mensagens por IMAP?",
             "a": [
                 {"option": "Exim",      "correct": false},
-                {"option": "Dovecot",     "correct": false},
+                {"option": "Dovecot",     "correct": true},
                 {"option": "Courier",      "correct": true},
                 {"option": "Postfix",     "correct": false} 
             ],
@@ -562,8 +563,8 @@ var quizJSON = {
             "a": [
                 {"option": "POP=YES",      "correct": false},
                 {"option": "POP3=YES",     "correct": false},
-                {"option": "POP3START=YES",      "correct": true},
-                {"option": "POP3DSTART=YES",     "correct": false} 
+                {"option": "POP3START=YES",      "correct": false},
+                {"option": "POP3DSTART=YES",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -601,8 +602,8 @@ var quizJSON = {
             "q": "Em qual tabela do iptables são definidas as regras de NAT?",
             "a": [
                 {"option": "filter",      "correct": false},
-                {"option": "nat",     "correct": false},
-                {"option": "mangle",      "correct": true},
+                {"option": "nat",     "correct": true},
+                {"option": "mangle",      "correct": false},
                 {"option": "forward",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -613,8 +614,8 @@ var quizJSON = {
             "q": "De que forma todos os pacotes chegando a máquina local podem ser bloqueados?",
             "a": [
                 {"option": "iptables -P INPUT -j DROP",      "correct": false},
-                {"option": "iptables -P INPUT DROP",     "correct": false},
-                {"option": "iptables -I INPUT DROP",      "correct": true},
+                {"option": "iptables -P INPUT DROP",     "correct": true},
+                {"option": "iptables -I INPUT DROP",      "correct": false},
                 {"option": "iptables -F INPUT",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -624,7 +625,7 @@ var quizJSON = {
         { // 4
             "q": "O comando iptables -t nat -A PREROUTING -p tcp --dport 80 -j ______ --to-destination 192.168.2.2:80 redireciona as conexões para a porta 80 da máquina local para a porta 80 da máquina 192.168.2.2.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "dnat",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -633,7 +634,7 @@ var quizJSON = {
         { // 5
             "q": "O comando _______ é utilizado para ativar as regras salvas com o comando iptables-save",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "iptables-restore",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -644,8 +645,8 @@ var quizJSON = {
             "a": [
                 {"option": "anon_write_enable=YES",      "correct": false},
                 {"option": "anon_rw_enable=YES",     "correct": false},
-                {"option": "anon_login_enable=YES",      "correct": true},
-                {"option": "anon_upload_enable=YES",     "correct": false} 
+                {"option": "anon_login_enable=YES",      "correct": false},
+                {"option": "anon_upload_enable=YES",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -654,7 +655,7 @@ var quizJSON = {
         { // 7
             "q": "Na opção ___________ no arquivo /etc/ssh/sshd_conf bloqueia o login direto via ssh para o usuário root.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "permitrootlogin no",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -663,9 +664,9 @@ var quizJSON = {
         { // 8
             "q": "Qual é a finalidade do comando ssh-agent?",
             "a": [
-                {"option": "Armazenar a autorização de acesso a chave do usuário.",      "correct": false},
+                {"option": "Armazenar a autorização de acesso a chave do usuário.",      "correct": true},
                 {"option": "Reestabelecer uma conexão ssh perdida",     "correct": false},
-                {"option": "Gerar a chave criptográfica pública.",      "correct": true},
+                {"option": "Gerar a chave criptográfica pública.",      "correct": false},
                 {"option": "Gerar a chave criptgráfica privada",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -675,7 +676,7 @@ var quizJSON = {
         { // 9
             "q": "O __________ deve ser utilizado pelo inetd para consultar as regras de TCP Wrapper e liberar a solicitação de acesso a um serviço. Informe apenas o nome, sem o caminho.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "tcpd",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -684,7 +685,7 @@ var quizJSON = {
         { // 10 
             "q": "Quais das referências a seguir informam sobre falhas em sistemas e alertas de segurança? Marque todas as corretas.",
             "a": [
-                {"option": "Cert",      "correct": false},
+                {"option": "Cert",      "correct": true},
                 {"option": "IANA",     "correct": false},
                 {"option": "Bugtraq",      "correct": true},
                 {"option": "TCP Wrapper",     "correct": false} 
@@ -701,8 +702,8 @@ var quizJSON = {
             "a": [
                 {"option": "O kernel não foi corretamente instalado.",      "correct": false},
                 {"option": "O Grub não pôde encontrar o kernel.",     "correct": false},
-                {"option": "O teclado não foi localizado",      "correct": true},
-                {"option": "O arquivo /etc/inittab foi editado incorretamente",     "correct": false} 
+                {"option": "O teclado não foi localizado",      "correct": false},
+                {"option": "O arquivo /etc/inittab foi editado incorretamente",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -713,8 +714,8 @@ var quizJSON = {
             "a": [
                 {"option": "Formatar o disco e reinstalar o sistema",      "correct": false},
                 {"option": "Pressionar [F1] durante o carregamento do sistema",     "correct": false},
-                {"option": "Aguardar até que o sistema se atualize",      "correct": true},
-                {"option": "Entrar no runlevel 1 e corrigir o script do serviço em questão",     "correct": false} 
+                {"option": "Aguardar até que o sistema se atualize",      "correct": false},
+                {"option": "Entrar no runlevel 1 e corrigir o script do serviço em questão",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -723,7 +724,7 @@ var quizJSON = {
         { // 3
             "q": "Dos comandos abaixo, quais podem ser utilizados para inspecionar os itens de harware do computador? Marque todas as opções corretas.",
             "a": [
-                {"option": "lsdev",      "correct": false},
+                {"option": "lsdev",      "correct": true},
                 {"option": "modprobe",     "correct": false},
                 {"option": "lspci",      "correct": true},
                 {"option": "strace",     "correct": false} 
@@ -750,7 +751,7 @@ var quizJSON = {
                 {"option": "pidof",      "correct": false},
                 {"option": "ps",     "correct": false},
                 {"option": "lsof",      "correct": true},
-                {"option": "strace",     "correct": false} 
+                {"option": "strace",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -759,7 +760,7 @@ var quizJSON = {
         { // 6 
             "q": "A variável global PATH incorretamente definida deve ser c orrigida no arquivo ________. Informe o caminho completo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "/etc/profile",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -770,8 +771,8 @@ var quizJSON = {
             "q": "Em qual arquivo ficam os caminhos para os diretórios com bibliotecas compartilhadas?",
             "a": [
                 {"option": "/etc/ld.so.cache",      "correct": false},
-                {"option": "/etc/ld.so.conf",     "correct": false},
-                {"option": "/etc/ldconfig",      "correct": true},
+                {"option": "/etc/ld.so.conf",     "correct": true},
+                {"option": "/etc/ldconfig",      "correct": false},
                 {"option": "/etc/ldd",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -782,8 +783,8 @@ var quizJSON = {
             "q": "Após alterar o conteúdo do arquivo /etc/ld.so.conf, qual comando deve ser executado?",
             "a": [
                 {"option": "ldd",      "correct": false},
-                {"option": "ldconfig",     "correct": false},
-                {"option": "update",      "correct": true},
+                {"option": "ldconfig",     "correct": true},
+                {"option": "update",      "correct": false},
                 {"option": "lilo",     "correct": false} 
             ],
             "correct": "<p><span>That's right!</span></p>",
@@ -793,7 +794,7 @@ var quizJSON = {
         { // 9
             "q": "Para evitar a corrupção dos dados, o comando _________ deve ser utilizado para editar o arquivo /etc/passwd",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "vipw",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
@@ -802,66 +803,23 @@ var quizJSON = {
         { // 10 
             "q": "Configurações de tempo de execução feitas pelo programa sysctl podem ser armazenadas no arquivo ___________. Informe o caminho completo.",
             "a": [
-                {"option": "",     "correct": true} 
+                {"option": "/etc/sysctl.conf",     "correct": true} 
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
-        },
+        }
 
-        { 
-            "q": "",
-            "a": [
-                {"option": "",      "correct": false},
-                {"option": "",     "correct": false},
-                {"option": "",      "correct": true},
-                {"option": "",     "correct": false} 
-            ],
-            "correct": "<p><span>That's right!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
-        },
+        // { 
+        //     "q": "",
+        //     "a": [
+        //         {"option": "",      "correct": false},
+        //         {"option": "",     "correct": false},
+        //         {"option": "",      "correct": true},
+        //         {"option": "",     "correct": false} 
+        //     ],
+        //     "correct": "<p><span>That's right!</span></p>",
+        //     "incorrect": "<p><span>Uhh no.</span></p>" 
+        // },
 
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
-            "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} 
-            ],
-            "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" 
-        },
-        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
-            "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} 
-            ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" 
-        },
-        { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
-            "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} 
-            ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" 
-        },
-        { // Question 5
-            "q": "Is Earth bigger than a basketball?",
-            "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} 
-            ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" 
-        } 
     ]
 };
