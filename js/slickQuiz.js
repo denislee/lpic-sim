@@ -20,14 +20,14 @@
                 nextQuestionText: 'próximo &raquo;',
                 backButtonText: '',
                 tryAgainText: '',
-                skipStartButton: false,
-                numberOfQuestions: 25,
+                skipStartButton: true,
+                numberOfQuestions: 5,
                 randomSort: true,
-                randomSortQuestions: false,
-                randomSortAnswers: false,
+                randomSortQuestions: true,
+                randomSortAnswers: true,
                 preventUnanswered: false,
-                completionResponseMessaging: false,
-                disableResponseMessaging: false
+                completionResponseMessaging: true,
+                disableResponseMessaging: false 
             },
 
             // Class Name Strings (Used for building quiz and for selectors)
