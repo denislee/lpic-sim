@@ -821,7 +821,7 @@ var quizJSON = {
                 {"option": "Coque 'hostmaster@foo.com no segundo campo do registro SOA",     "correct": false} 
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>Coloque 'hostmaster.foo.com' no segundo campo do registro SOA</p>" 
         },
 
         { // 2
@@ -834,7 +834,7 @@ var quizJSON = {
                 {"option": "server IN A engr.example.com.",      "correct": false}
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>server IN NIS server.engr.example.com.</p>" 
         },
 
         { // 3
@@ -846,7 +846,7 @@ var quizJSON = {
                 {"option": "Você pode usar PGP -generated chaves.",     "correct": false} 
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>dnskeygen</p>" 
         },
 
         { // 4
@@ -858,7 +858,7 @@ var quizJSON = {
                 {"option": "cachesize {256;};",     "correct": false} 
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>datasize {256};</p>" 
         },
 
         { // 5
@@ -870,7 +870,7 @@ var quizJSON = {
                 {"option": "allow-access { IP_ADDRESS; };",      "correct": false}
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>allow-transfer { IP_ADDRESS; };</p>" 
         },
 
         { // 6
@@ -901,7 +901,7 @@ var quizJSON = {
                 {"option": "Usar o query Access { ...; }; declarado no arquivo de configuração do named.",      "correct": false}
             ],
             "correct": "<p><span>correto!</span></p>",
-            "incorrect": "<p><span>Uhh no.</span></p>" 
+            "incorrect": "<p><span>Uhh no.</span>Usar o allow-query { ...; }; declarado no arquivo de configuração do named.</p>" 
         },
 
         { // 9
