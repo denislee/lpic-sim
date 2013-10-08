@@ -11,7 +11,7 @@ var quizJSON = {
         "level2":  "melhor estudar um pouco mais",
         "level3":  "vixi, volte para os livros",
         "level4":  "triste",
-        "level5":  "ta ruim manow." 
+        "level5":  "ta ruim manow."
     },
     "questions": [
 
@@ -807,7 +807,7 @@ var quizJSON = {
             ],
             "correct": "<p><span>correto!</span></p>",
             "incorrect": "<p><span>Uhh no.</span></p>" 
-        }
+        },
 
 // ------------------------------------------- andré sato filho
 // 207 ----------------------------------------------------------------------
